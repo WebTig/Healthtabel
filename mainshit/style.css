@@ -1,6 +1,6 @@
 body {
     background-color: #34495e; /* Dunkles Blau */
-    color: #707070; /* Helles Grau */
+    color: #ffffff; /* Helles Grau */
     font-family: 'Roboto', Arial, sans-serif; /* Neue Schriftart */
     display: flex;
     justify-content: center;
@@ -14,9 +14,9 @@ body {
     width: 80%;
     max-width: 800px;
     background-color: #3498db66; /* Helles Blau */
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
     margin: 20px auto; 
     padding: 20px;
     border: 2px solid #003559; /* Rotes Orange */
-    background-color: #ecf0f1; /* Helles Grau */
+    background-color: #18194b; /* Helles Grau */
     border-radius: 10px;
 }
 
@@ -34,8 +34,8 @@ body {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid #003559; /* rand farbe */
-    background-color: #ecf0f1; /* kasten farbe */
-    color : #000000; /* text farbe */
+    background-color: #18194b; /* kasten farbe */
+    color : #ffffff; /* text farbe */
     border-radius: 10px;
 }
 
@@ -44,17 +44,24 @@ body {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid #003559; /* Rotes Orange */
-    background-color: #ecf0f1; /* Helles Grau */
+    background-color: #18194b; /* Helles Grau */
     border-radius: 10px;
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 2px solid #0a0023;
+    color: #ffffff;
+    background-color: #014a7b;
     border-radius: 5px;
     box-sizing: border-box;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #d7d7d7; /* Change this to your desired placeholder text color */
 }
 
 button {
